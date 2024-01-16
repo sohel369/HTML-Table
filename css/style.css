@@ -89,4 +89,25 @@ table tr td.first_td {
     text-align: left;
     color: rgb(15, 171, 80);
     font-weight: bold;
+    padding-left: 6px;
+}
+table thead td i{
+    margin-right: 10px;
+    cursor: pointer;
+}
+table thead:hover{
+    background: #666;
+    transition: 1s;
+    /* color: white; */
+}
+table tr td:hover{
+    transition: 1s;
+    background: rgb(44, 44, 44);
+    color: white;
+}
+table tr td:hover button{
+    background: none;
+}
+table tr:nth-child(2n+1){
+    background: #ddd;
 }
